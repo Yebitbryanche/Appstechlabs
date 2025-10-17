@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import image from "../../types/image";
+import { images } from '../../types/image';
 import { FaChevronDown } from "react-icons/fa";
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
@@ -14,7 +14,7 @@ function Nav() {
         {/* Logo */}
         <div className="md:w-30 sm:25 w-20">
             <Link to="/">
-                <img src={image.logo} alt="logo" className="w-full" />
+                <img src={images.logo} alt="logo" className="w-full" />
             </Link>
         </div>
 
@@ -67,9 +67,9 @@ function Nav() {
             />
             <div className="w-8">
               {changeLang ? (
-                <img src={image.england} alt="English" className="w-full" />
+                <img src={images.england} alt="English" className="w-full" />
               ) : (
-                <img src={image.france} alt="French" className="w-full" />
+                <img src={images.france} alt="French" className="w-full" />
               )}
             </div>
             <p>{changeLang ? "EN" : "FR"}</p>
@@ -129,9 +129,9 @@ function Nav() {
             />
             <div className="w-5">
               {changeLang ? (
-                <img src={image.england} alt="English" className="w-full" />
+                <img src={images.england} alt="English" className="w-full" />
               ) : (
-                <img src={image.france} alt="French" className="w-full" />
+                <img src={images.france} alt="French" className="w-full" />
               )}
             </div>
             <p className="text-white">{changeLang ? "EN" : "FR"}</p>
