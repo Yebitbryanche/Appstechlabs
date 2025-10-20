@@ -13,8 +13,28 @@ import image2 from "../assets/images/portrait-woman-video-call-with-laptop-headp
 import image3 from "../assets/images/medium-shot-man-meeting-home.jpg"
 import image4 from "../assets/images/businessman-working-laptop.jpg"
 
+import background from "../assets/images/background.png";
+import first from "../assets/images/first.jpg";
+import second from "../assets/images/second.png";
+import third from "../assets/images/third.png";
+import fourth from "../assets/images/fourth.png";
+import fifth from "../assets/images/fifth.png";
+import sixth from "../assets/images/sixth.png";
+import seventh from "../assets/images/seventh.png";
+import eighth from "../assets/images/eighth.png";
+import logos from "../assets/images/logo.jpeg";
 
-export default{
+export const images = {
+    background,
+    first,
+    second,
+    third,
+    fourth,
+    fifth,
+    sixth,
+    seventh,
+    eighth,
+    logos,
     logo,
     england,
     france,
