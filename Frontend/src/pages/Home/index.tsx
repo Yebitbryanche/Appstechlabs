@@ -60,7 +60,7 @@ function Home() {
           <p className="lg:text-3xl md:text-xl text-black/50">Dive with us into a whole new era where nothing seems impossible</p>
         </div>
         <div className="relative flex-1 flex">
-          <div className="w-full md:pl-[10rem] md:pb-[10rem]"><img src={image.innovation} className="lg:w-[90%] md:w-[70%] rounded-xl" alt="" /></div>
+          <div className="w-full md:pl-[10rem] md:pb-[10rem] z-[-1]"><img src={image.innovation} className="lg:w-[90%] md:w-[70%] rounded-xl" alt="" /></div>
           <img className="lg:absolute md:absolute sm:absolute absolute lg:w-[40%] md:w-[30%] sm:w-[30%] w-[30%] md:bottom-0 md:right-0 lg:left-0  md:rounded-xl lg:bottom-0 lg:rounded-xl sm:bottom-0 sm:rounded-lg bottom-0 rounded-lg" src={image.AI_key} alt="" />
         </div>
       </section>

@@ -10,7 +10,7 @@ function Nav() {
 
   return (
     <div>
-      <nav className="flex justify-between md:px-6 px-3 md:py-4 py-2 items-center">
+      <nav className="flex justify-between md:px-6 px-3 md:py-4 py-2 items-center z-50">
         {/* Logo */}
         <div className="md:w-30 sm:25 w-20">
             <Link to="/">
