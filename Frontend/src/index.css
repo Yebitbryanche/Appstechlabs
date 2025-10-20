@@ -1,6 +1,20 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
 @theme{
     --color-primary:#064E97;
     --color-secondary:#961B2F;
+    --color-tertiary:#F5FBFD;
 }
+
+.swiper-pagination-bullet {
+  background-color: #ccc !important; /* gray inactive */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {      
+  background-color: #961B2F !important; /* dark red active */
+}
+
 
