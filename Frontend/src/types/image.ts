@@ -24,7 +24,7 @@ import seventh from "../assets/images/seventh.png";
 import eighth from "../assets/images/eighth.png";
 import logos from "../assets/images/logo.jpeg";
 
-export const images = {
+export default {
     background,
     first,
     second,

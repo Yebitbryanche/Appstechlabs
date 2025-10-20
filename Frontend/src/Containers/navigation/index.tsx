@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { images } from '../../types/image';
+import  images  from '../../types/image';
 import { FaChevronDown } from "react-icons/fa";
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";

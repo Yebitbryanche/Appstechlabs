@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { images } from '../../types/image';
+import images  from '../../types/image';
 
 export default function AboutAppstechLabs() {
   return (
